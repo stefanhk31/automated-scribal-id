@@ -1,0 +1,3 @@
+participants: make lists hidden until click on title? (user would see cat's of participants, then click to open up list of names)
+
+initial-results: make images links to larger, clearer views of images?
