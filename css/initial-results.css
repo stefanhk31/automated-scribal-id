@@ -106,12 +106,6 @@ body {
   margin: 0px;
 }
 
-.container {
-  display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: repeat(auto-fit, minmax(40vh, 100vh));
-}   
-
 .pages-h1 {
     font-size: 1.2em;
     margin: 0.67em 0.67em;
@@ -148,7 +142,10 @@ body {
 
 .results {
   display: grid;
-}
+   grid-template-columns: 1fr;
+   grid-template-rows: repeat(auto-fit, minmax(40vh, 100vh));
+}   
+
 
 .results-header {
     font-size: 1em;
