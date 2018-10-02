@@ -143,7 +143,7 @@ body {
 .results {
   display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: repeat(auto-fit, minmax(40vh, 100vh));
+   grid-template-rows: 1fr;
 }   
 
 
@@ -162,6 +162,7 @@ body {
 .result-image {
   font-size: .8em;
   margin: 0 .75em;
+  justify-self: center;
   padding-bottom: 1em;
   width: 90vw;
   height: auto;
