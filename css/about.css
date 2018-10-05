@@ -107,8 +107,10 @@ body {
 }    
 
 .pages-h1 {
-    font-size: 1.2em;
-    margin: 0.67em 0.67em;
+   font-size: 1.2em;
+    margin: 1em 1em;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .topnav {
@@ -180,7 +182,9 @@ body {
 
 .pages-h1 {
     font-size: 1.4em;
-    margin: 0.67em 0.67em;
+    margin: 1em 1em;
+    background-color: white;
+    border-radius: 5px;
 }  
   
 /**********TABLET LANDSCAPE*****/
@@ -193,7 +197,9 @@ body {
 
 .pages-h1 {
     font-size: 1.4em;
-    margin: 0.67em 0.67em;
+      margin: 1em 1em;
+    background-color: white;
+    border-radius: 5px;
 }  
   
 /****************DESKTOP********************/
@@ -206,7 +212,9 @@ body {
 
 .pages-h1 {
     font-size: 1.4em;
-    margin: 0.67em 0.67em;
+     margin: 1em 1em;
+    background-color: white;
+    border-radius: 5px;
 }    
   
 /*************LARGER DESKTOP*******/
@@ -224,7 +232,9 @@ body {
 
 .pages-h1 {
     font-size: 1.6em;
-    margin: 0.67em 0.67em;
+     margin: 1em 1em;
+    background-color: white;
+    border-radius: 5px;
 }  
 
 
