@@ -141,8 +141,10 @@ body {
 }
 
 .banner {
-  height: 15vh;
-  background: url(https://stefanhk31.github.io/automated-scribal-id/img/eastsyriac1-min.jpg) no-repeat center center;
+    height: 20vh;
+    background: url(https://stefanhk31.github.io/automated-scribal-id/img/eastsyriac1-min.jpg);
+    display: grid;
+    border-bottom: 10px solid;
 }
 
 /*****MEDIA FOR MOBILE MENU******/
