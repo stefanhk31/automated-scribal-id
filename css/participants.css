@@ -141,7 +141,9 @@ body {
 }
 
 .people {
-    display: block;
+  display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
 }
 
 .contributors {
@@ -168,9 +170,11 @@ body {
 }
 
 .institutions {
-    display: block;
-    font-size: .8em;
-    margin: .75em .75em;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+   font-size: .8em;
+   margin: .75em .75em;
 }
 
 /*****MEDIA FOR MOBILE MENU******/
