@@ -156,14 +156,14 @@ body {
 
 .results {
   display: grid;
-   grid-template-columns: 1fr;
-   grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }   
 
 
 .results-header {
     font-size: 1em;
-    margin: 0 .75em;
+    margin: .75em .75em;
     color: #7F2212;
 }
 
