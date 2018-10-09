@@ -106,11 +106,6 @@ body {
   margin: 0px;
 }    
 
-.pages-h1 {
-    font-size: 1.2em;
-    margin: 0.67em 0.67em;
-}
-
 .topnav {
   background-color: #7F2212;
   overflow: hidden;
@@ -138,6 +133,25 @@ body {
 
 .topnav .icon {
   display: none;
+}
+
+.banner {
+    height: auto;
+    background: url(https://stefanhk31.github.io/automated-scribal-id/img/eastsyriac1-min.jpg);
+    display: grid;
+    border-bottom: 10px solid;
+}
+
+.pages-h1 {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #7F2212;
+    margin: 0.5em 0.5em;
+    padding: 0.3em;
+    background-color: white;
+    border-radius: 15px;
+    border: 5px solid black;
+    width: fit-content;
 }
 
 
@@ -174,7 +188,6 @@ body {
 
 .pages-h1 {
     font-size: 1.4em;
-    margin: 0.67em 0.67em;
 }  
   
 /**********TABLET LANDSCAPE*****/
@@ -185,10 +198,6 @@ body {
   font-size: 1em;
 }  
 
-.pages-h1 {
-    font-size: 1.4em;
-    margin: 0.67em 0.67em;
-}  
   
 /****************DESKTOP********************/
 
@@ -198,10 +207,6 @@ body {
   font-size: 1.2em;
 }
 
-.pages-h1 {
-    font-size: 1.4em;
-    margin: 0.67em 0.67em;
-}    
   
 /*************LARGER DESKTOP*******/
 
@@ -218,7 +223,6 @@ body {
 
 .pages-h1 {
     font-size: 1.6em;
-    margin: 0.67em 0.67em;
 }  
 
 
