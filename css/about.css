@@ -144,10 +144,12 @@ body {
 
 .pages-h1 {
     font-size: 1.2em;
-    margin: 1em 1em;
+    font-style: italic;
+    color: #7F2212;
+    margin: 0.5em 0.5em;
     padding: 0.3em;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 5px solid black;
     width: fit-content;
 }
