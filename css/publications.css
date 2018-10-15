@@ -157,7 +157,7 @@ body {
 .pub-list {
     display: block;
     font-size: .8em;
-    margin: 0 .75em;
+    margin: 1.5em 1.5em;
 }
 
 .pub-list > li {
