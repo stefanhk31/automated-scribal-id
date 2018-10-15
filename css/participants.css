@@ -173,12 +173,11 @@ body {
     margin: 0 .75em;
 }
 
-/*.contributors-list-ra {
+.contributors-list-ra {
     display: block;
-    grid-template-columns: repeat(auto-fit, 300px);
     font-size: .8em;
     margin: 0 .75em;
-} */
+}
 
 .contributors-list > li {
   list-style: initial;
