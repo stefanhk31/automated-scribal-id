@@ -154,11 +154,11 @@ body {
     width: fit-content;
 }
 
-.pub-div {
+.pub-list {
     display: block;
     font-size: .8em;
-    line-height: 1.3em;
-    margin: 1.5em 1.5em;
+    line-height: 1em;
+    margin: 1em 1em;
 }
 
 .pub-list > li {
