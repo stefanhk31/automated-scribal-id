@@ -188,7 +188,7 @@ body {
    grid-template-columns: 1fr;
    grid-template-rows: 1fr;
    font-size: .8em;
-   margin: .75em .75em;
+   margin: 0 1.5em;
 }
 
 /*****MEDIA FOR MOBILE MENU******/
