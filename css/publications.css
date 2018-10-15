@@ -161,7 +161,7 @@ body {
     margin: 1em 1em;
 }
 
-.pub-list > li {
+.pub-list > ul > li {
   list-style: initial;
 }
 
