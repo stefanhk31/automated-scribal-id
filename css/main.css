@@ -147,7 +147,8 @@ body {
   margin: 20% auto; 
   background-color: #ffffff;
   width: 90vw;
-  height: 60vh;
+  height: fit-content;
+
 }
 
 .landing-header {
@@ -211,10 +212,6 @@ body {
   .topnav a {
   font-size: 1.2em;
 }
-
-.landing {
-  margin: 10% auto; 
-}  
   
 .landing-header {
    font-size: 1.8em;
@@ -235,14 +232,8 @@ body {
   padding: 14px 40px;
 }  
 
- .landing {
-  margin: 10% auto; 
-}
-
  .landing-header {
    font-size: 2m;
-   text-align: center;
-   align-self: center;
 }
 
 
