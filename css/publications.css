@@ -154,6 +154,17 @@ body {
     width: fit-content;
 }
 
+.pub-list {
+    display: block;
+    font-size: .8em;
+    margin: 0 .75em;
+}
+
+.pub-list > li {
+  list-style: initial;
+}
+
+
 /*****MEDIA FOR MOBILE MENU******/
 
 @media screen and (max-width: 1000px) {
