@@ -163,6 +163,7 @@ body {
 
 .pub-list > ul > li {
   list-style: initial;
+  padding-bottom: .5em;
 }
 
 
