@@ -167,12 +167,12 @@ body {
     color: #7F2212;
 }
 
-.results-text {
-  font-size: .8em;
-  margin: .75em .75em;
-  padding-bottom: 1em;
+.results-text  {   
+    font-size: .8em;
+    margin: .75em .75em;
+    padding-bottom: .5em;
 }
-
+   
 .result-image {
     font-size: .8em;
     margin: .75em .75em;
@@ -217,8 +217,22 @@ body {
 
 .pages-h1 {
     font-size: 1.4em;
-}  
-  
+}
+   
+.results-header {
+    font-size: 1.3em;
+   } 
+
+.results-text {
+   font-size: 1em;
+   margin: 1.5em 1.5em;
+   }
+
+.result-image {
+   width: 65vw;
+   }
+   
+   
 /**********TABLET LANDSCAPE*****/
 
 @media screen and (min-width: 900px) {
@@ -235,6 +249,14 @@ body {
   .topnav a {
   font-size: 1.2em;
 }
+   
+   .results-text {
+   font-size: 1.3em;
+   }
+   
+   .results-header {
+    font-size: 1.6em;
+   } 
 
   
 /*************LARGER DESKTOP*******/
