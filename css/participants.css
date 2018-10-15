@@ -225,22 +225,9 @@ body {
 
 .pages-h1 {
     font-size: 1.4em;
-}
-  
-.contributors-list-ra {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, 300px);
-    font-size: .8em;
-    margin: 0 .75em;
-}
+   }
 
 
-  .contributors-list-ra > li {
-    list-style: initial;
-    padding-right: .75em;
-}
-
-  
 /**********TABLET LANDSCAPE*****/
 
 @media screen and (min-width: 900px) {
@@ -253,10 +240,6 @@ body {
     font-size: 1.4em;
 }  
 
-  .contributors-list-ra > li {
-    list-style: initial;
-    padding-right: 1em;
-}  
   
 /****************DESKTOP********************/
 
@@ -288,11 +271,6 @@ body {
 .pages-h1 {
     font-size: 2.6em;
 }  
-
- .contributors-list-ra > li {
-    list-style: initial;
-    padding-right: 1em;
-}    
 
 
 
