@@ -160,7 +160,13 @@ body {
 }
 
 .links a:visited {
+   text-decoration: none;
    color: #7F2212;
+}
+
+.links a:hover {
+   text-decoration: none;
+   background-color: #818483;
 }
 
 .about {
