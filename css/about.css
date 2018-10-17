@@ -154,6 +154,15 @@ body {
     width: fit-content;
 }
 
+.a:link {
+   text-decoration: none;
+   color: #7F2212;
+}
+
+.a:visited {
+   color: #7F2212;
+}
+
 .about {
   display: grid;
   grid-template-columns: 1fr;
