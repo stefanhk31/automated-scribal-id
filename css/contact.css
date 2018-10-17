@@ -172,6 +172,8 @@ hr{
 label{
    float:left;
    font-size:16px;
+   margin-left: 5px;
+
 }
 
 input[type="text"] {
@@ -243,15 +245,44 @@ input[type="submit"] {
 
 .pages-h1 {
     font-size: 1.4em;
-}  
+}
+   
+input[type="text"] {
+    width: 90%;
+    height: 3vw;
+   }
+   
+textarea {
+    width: 90%;
+   }
   
+input[type="submit"] {
+    width: 90%;
+   }
+ 
 /**********TABLET LANDSCAPE*****/
 
 @media screen and (min-width: 900px) {
 
 .topnav a {
   font-size: 1em;
-}  
+}
+   
+input[type="text"] {
+    width: 50%;
+    height: 3vw;
+    margin-top: 0;
+  }
+
+textarea {
+    width: 60%;
+    margin-top: 0;
+   }
+
+ input[type="submit"] {
+    width: 60%;
+    margin-left: 100px;
+   }
 
   
 /****************DESKTOP********************/
@@ -262,6 +293,17 @@ input[type="submit"] {
   font-size: 1.2em;
 }
 
+   input[type="text"] {
+    width: 30%;
+    height: 2vw;
+}
+   
+  input[type="submit"] {
+    width: 40%;
+    margin-left: 175px;
+}
+
+   
   
 /*************LARGER DESKTOP*******/
 
@@ -279,6 +321,16 @@ input[type="submit"] {
 .pages-h1 {
     font-size: 2.6em;
 }  
+   
+label {
+   font-size: 40px;
+   }
+   
+input[type="submit"] {
+   height: 5%;
+   font-size: 32px;
+   margin-left: 350px;
+}
 
 
 
