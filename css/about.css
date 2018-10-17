@@ -154,21 +154,6 @@ body {
     width: fit-content;
 }
 
-.links a {
-   text-decoration: none;
-   color: #7F2212;
-}
-
-.links a:visited {
-   text-decoration: none;
-   color: #7F2212;
-}
-
-.links a:hover {
-   text-decoration: none;
-   background-color: #818483;
-}
-
 .about {
   display: grid;
   grid-template-columns: 1fr;
@@ -179,6 +164,21 @@ body {
     font-size: .8em;
     margin: .75em .75em;
     padding-bottom: .5em;
+}
+
+.about-text a {
+   text-decoration: none;
+   color: #7F2212;
+}
+
+.about-text a:visited {
+   text-decoration: none;
+   color: #7F2212;
+}
+
+.about-text a:hover {
+   text-decoration: none;
+   background-color: #818483;
 }
 
 .about-image {
