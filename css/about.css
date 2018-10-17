@@ -154,12 +154,12 @@ body {
     width: fit-content;
 }
 
-.a:link {
+.links a:link {
    text-decoration: none;
    color: #7F2212;
 }
 
-.a:visited {
+.links a:visited {
    color: #7F2212;
 }
 
