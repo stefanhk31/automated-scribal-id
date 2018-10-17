@@ -175,33 +175,39 @@ label{
 }
 
 input[type="text"] {
-   width:100%;
-   margin-top:10px;
-   height:35px;
-   margin-bottom:25px;
-   padding:10px;
-   border:3px solid #2BC1F2;
+    width: 80%;
+    height: 10vw; 
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: 3px solid #7F2212;
+    border-radius: 3px;
 }
 
 textarea {
-   width:100%;
-   border:3px solid #2BC1F2;
-   padding:10px;
-   margin-bottom:25px;
-   margin-top:10px;
-   height:100px;
-   resize:none;
+    width: 80%;
+    border: 3px solid #7F2212;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 30vw;
+    resize: none;
 }
 
-input[type="submit"]{
-   width:100%;
-   padding:10px 45px;
-   background-color:#2BC1F2;
-   border:none;
-   color:#fff;
-   font-size:18px;
-   font-weight:700;
-   cursor:pointer;
+input[type="submit"] {
+    width: 80%;
+    padding: 10px 45px;
+    margin-left: 10px;
+    background-color: #7F2212;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 /*****MEDIA FOR MOBILE MENU******/
