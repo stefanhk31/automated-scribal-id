@@ -154,6 +154,29 @@ body {
     width: fit-content;
 }
 
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.about-text {   
+    font-size: .8em;
+    margin: .75em .75em;
+    padding-bottom: .5em;
+}
+
+.about-image {
+    font-size: .8em;
+    margin: .75em .75em;
+    justify-self: center;
+    padding-bottom: 1em;
+    width: 85vw;
+    height: auto;
+    border: 3px solid;
+    border-radius: 15px;
+}
+
 /*****MEDIA FOR MOBILE MENU******/
 
 @media screen and (max-width: 1000px) {
@@ -187,7 +210,16 @@ body {
 
 .pages-h1 {
     font-size: 1.4em;
-}  
+}
+
+.about-text {
+   font-size: 1em;
+   margin: 1.5em 1.5em;
+   }
+   
+.about-image {
+   width: 65vw;
+   }
   
 /**********TABLET LANDSCAPE*****/
 
@@ -205,6 +237,9 @@ body {
   font-size: 1.2em;
 }
 
+  .about-text {
+   font-size: 1.3em;
+   }
 
 /*************LARGER DESKTOP*******/
 
