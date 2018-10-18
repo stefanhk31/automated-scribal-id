@@ -199,6 +199,10 @@ textarea {
     resize: none;
 }
 
+.g-recaptcha {
+   margin: 0;  
+}
+
 input[type="submit"] {
     width: 80%;
     padding: 10px 45px;
@@ -211,6 +215,8 @@ input[type="submit"] {
     font-weight: 700;
     cursor: pointer;
 }
+
+
 
 /*****MEDIA FOR MOBILE MENU******/
 
@@ -255,9 +261,13 @@ input[type="text"] {
 textarea {
     width: 90%;
    }
-  
+
+.g-recaptcha {
+   margin: 0 .5em;  
+}   
+   
 input[type="submit"] {
-    width: 90%;
+    width: 40%;
    }
  
 /**********TABLET LANDSCAPE*****/
@@ -280,8 +290,8 @@ textarea {
    }
 
  input[type="submit"] {
-    width: 60%;
-    margin-left: 100px;
+    width: 30%; 
+    margin: 0;
    }
 
   
@@ -299,8 +309,7 @@ textarea {
 }
    
   input[type="submit"] {
-    width: 40%;
-    margin-left: 175px;
+    width: 20%;
 }
 
    
@@ -327,9 +336,8 @@ label {
    }
    
 input[type="submit"] {
-   height: 5%;
-   font-size: 32px;
-   margin-left: 350px;
+    width: 15%;
+    font-size: .8em;
 }
 
 
