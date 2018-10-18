@@ -14,9 +14,11 @@ var namelabel = document.createElement('label');
 namelabel.innerHTML = "Your Name : ";
 createform.appendChild(namelabel);
 
+
 var nameelement = document.createElement('input'); 
 nameelement.setAttribute("type", "text");
 nameelement.setAttribute("name", "dname");
+nameelement.required = true;
 createform.appendChild(nameelement);
 
 var namebreak = document.createElement('br');
@@ -29,6 +31,7 @@ createform.appendChild(emaillabel);
 var emailelement = document.createElement('input');
 emailelement.setAttribute("type", "text");
 emailelement.setAttribute("name", "demail");
+emailelement.required = true;
 createform.appendChild(emailelement);
 
 var emailbreak = document.createElement('br');
@@ -40,6 +43,7 @@ createform.appendChild(messagelabel);
 
 var messageelement = document.createElement('textarea');
 messageelement.setAttribute("name", "dmessage");
+messageelement.required = true;
 createform.appendChild(messageelement);
 
 var messagebreak = document.createElement('br');
