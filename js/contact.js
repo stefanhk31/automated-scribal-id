@@ -45,9 +45,9 @@ createform.appendChild(messageelement);
 var messagebreak = document.createElement('br');
 createform.appendChild(messagebreak);
 
-var submitelement = document.createElement('input'); 
+/* var submitelement = document.createElement('input'); 
 submitelement.setAttribute("type", "submit");
 submitelement.setAttribute("name", "dsubmit");
 submitelement.setAttribute("value", "Submit");
-createform.appendChild(submitelement);
+createform.appendChild(submitelement); */
 
