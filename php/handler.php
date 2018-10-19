@@ -19,7 +19,8 @@ $validator->field('email')->isEmail();
 $validator->field('message')->maxLength(6000);
 
 
-$pp->requireCaptcha();
+$pp->requireReCaptcha();
+$pp->getReCaptcha()->initSecretKey('6LdBuXUUAAAAAOWJXDyVAKCPUCwpF0zRNZThjR7B');
 
 
 $pp->sendEmailTo('shodgeskluck@gmail.com'); // change when tested 
