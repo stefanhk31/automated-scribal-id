@@ -271,7 +271,7 @@ body {
   font-size: 1.2em;
 }
 
-  .about-text {
+ .about-text {
    font-size: 1.3em;
    }
 
@@ -280,11 +280,11 @@ body {
 }
    
 .about-text a:visited {
-   font-size: 1em;
+   font-size: 1.3em;
 }
 
 .about-text a:hover {
-   font-size: 1em;
+   font-size: 1.3em;
 }   
    
 /*************LARGER DESKTOP*******/
