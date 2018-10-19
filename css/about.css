@@ -174,11 +174,15 @@ body {
 }
 
 .about-text a:visited {
+   margin: 0;
+   font-size: .8em;
    text-decoration: none;
    color: #7F2212;
 }
 
 .about-text a:hover {
+   margin: 0;
+   font-size: .8em;
    text-decoration: none;
    background-color: #818483;
 }
@@ -237,6 +241,15 @@ body {
 .about-text a {
    font-size: 1em;
 }
+
+.about-text a:visited {
+   font-size: 1em;
+}
+
+.about-text a:hover {
+   font-size: 1em;
+}   
+   
    
 .about-image {
    width: 65vw;
@@ -265,6 +278,14 @@ body {
    .about-text a {
    font-size: 1.3em;
 }
+   
+.about-text a:visited {
+   font-size: 1em;
+}
+
+.about-text a:hover {
+   font-size: 1em;
+}   
    
 /*************LARGER DESKTOP*******/
 
