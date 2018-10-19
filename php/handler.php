@@ -23,6 +23,6 @@ $pp->requireReCaptcha();
 $pp->getReCaptcha()->initSecretKey('6LdBuXUUAAAAAOWJXDyVAKCPUCwpF0zRNZThjR7B');
 
 
-$pp->sendEmailTo('shodgeskluck@gmail.com'); // change when tested 
+$pp->sendEmailTo('someemailaddress@somedomain.com'); // entire desired email here 
 
 echo $pp->process($_POST);
