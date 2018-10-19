@@ -168,6 +168,7 @@ body {
 
 .about-text a {
    margin: 0;
+   font-size: .8em;
    text-decoration: none;
    color: #7F2212;
 }
@@ -233,6 +234,10 @@ body {
    margin: 1.5em 1.5em;
    }
    
+.about-text a {
+   font-size: 1em;
+}
+   
 .about-image {
    width: 65vw;
    }
@@ -257,6 +262,10 @@ body {
    font-size: 1.3em;
    }
 
+   .about-text a {
+   font-size: 1.3em;
+}
+   
 /*************LARGER DESKTOP*******/
 
 @media screen and (min-width:1800px) {
