@@ -167,6 +167,7 @@ body {
 }
 
 .about-text a {
+   margin: 0;
    text-decoration: none;
    color: #7F2212;
 }
