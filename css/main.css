@@ -16,12 +16,13 @@ html {
     font-size: 1.4em;
     line-height: 1;
     height: 100%;
-    background: url(https://stefanhk31.github.io/automated-scribal-id/img/HMML-background-image.webp) no-repeat center center /*, url(https://stefanhk31.github.io/automated-scribal-id/img/HMML-background-image-backup.jpg) no-repeat center center */;
+    background: url(https://stefanhk31.github.io/automated-scribal-id/img/HMML-background-image.webp) no-repeat center center, url(https://stefanhk31.github.io/automated-scribal-id/img/HMML-background-image-backup.jpg) no-repeat center center;
     background-size: cover;
-     -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     overflow: hidden;
+    z-index: 0;
 }
 
 /*
@@ -152,6 +153,7 @@ body {
   background-color: rgba(255, 255, 255, 75%);
   width: 90vw;
   height: fit-content;
+  z-index: 1;
 }
 
 .landing-header {
