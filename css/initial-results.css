@@ -137,7 +137,7 @@ body {
 
 .banner {
     height: auto;
-    background: url(https://stefanhk31.github.io/automated-scribal-id/img/HMML-background-image.webp);
+    background: url(https://stefanhk31.github.io/automated-scribal-id/img/HMML-background-image.webp), url(https://stefanhk31.github.io/automated-scribal-id/img/HMML-background-image-backup.jpg);
     display: grid;
     border-bottom: 10px solid;
 }
