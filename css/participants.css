@@ -34,5 +34,6 @@
    grid-template-columns: 1fr;
    grid-template-rows: 1fr;
    font-size: .8em;
-   margin: 0 1.5em;
+   margin: 0;
+   padding: 0 1.5em;
 }
