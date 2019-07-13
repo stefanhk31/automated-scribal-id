@@ -112,6 +112,7 @@ body {
   width: 100vw;
   max-width: 1600px;
   margin: 0px;
+  overflow-y: auto;
 }    
 
 .topnav {
