@@ -246,24 +246,4 @@ body {
    text-align: center;
    align-self: center;
 }
-  
-/*************LARGER DESKTOP*******/
-
-@media screen and (min-width:1800px) {
  
-  body {
-  font-size: 2.4em;
-} 
-  
-.topnav a {
-  font-size: 1.6em;
-  padding: 14px 40px;
-}  
-
- .landing-header {
-   font-size: 2m;
-}
-   
- .pages-h1 {
-    font-size: 2.6em;
-}  
