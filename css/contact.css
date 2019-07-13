@@ -137,8 +137,8 @@ body {
 
 .banner {
     height: auto;
-    background: url(https://stefanhk31.github.io/dash-stanford/img/HMML-background-image.webp) no-repeat center center, url(https://stefanhk31.github.io/dash-stanford/img/HMML-background-image-backup.jpg) no-repeat center center;
-    display: grid;
+
+background: url(https://stefanhk31.github.io/dash-stanford/img/HMML-background-image.webp), url(https://stefanhk31.github.io/dash-stanford/img/HMML-background-image-backup.jpg);    display: grid;
     border-bottom: 10px solid;
 }
 
