@@ -117,6 +117,8 @@ body {
 .topnav {
   background-color: #7F2212;
   overflow: hidden;
+  width: 100vw;
+  max-width: 1600px;
 }
 
 .topnav a {
