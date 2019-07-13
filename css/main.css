@@ -223,6 +223,8 @@ body {
 .pages-h1 {
     font-size: 1.4em;
 }
+   
+}
   
 /**********TABLET LANDSCAPE*****/
 
@@ -235,6 +237,7 @@ body {
 .landing {
   margin: 10% auto; 
 }  
+}
   
 /****************DESKTOP********************/
 
