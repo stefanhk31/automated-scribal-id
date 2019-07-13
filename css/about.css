@@ -68,25 +68,3 @@
    width: 65vw;
    }
 }
-  
-/****************DESKTOP********************/
-
-@media screen and (min-width: 1200px) {
- 
- .about-text {
-   font-size: 1.3em;
-   }
-
-  .about-text a {
-   font-size: 1.3em;
-}
-   
-.about-text a:visited {
-   font-size: 1.3em;
-}
-
-.about-text a:hover {
-   font-size: 1.3em;
-}
-
-}
