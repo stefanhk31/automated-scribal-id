@@ -67,6 +67,7 @@
 .about-image {
    width: 65vw;
    }
+}
   
 /****************DESKTOP********************/
 
@@ -86,4 +87,6 @@
 
 .about-text a:hover {
    font-size: 1.3em;
+}
+
 }
