@@ -55,7 +55,7 @@ textarea {
 
 input[type="submit"] {
     width: 80%;
-    padding: 10px 45px;
+    padding: 30px 45px;
     margin-left: 10px;
     background-color: #7F2212;
     border: none;
@@ -64,6 +64,10 @@ input[type="submit"] {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+}
+
+form {  
+   margin-bottom: 0;
 }
 
 
