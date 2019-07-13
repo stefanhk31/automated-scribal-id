@@ -91,6 +91,7 @@ textarea {
 input[type="submit"] {
     width: 40%;
    }
+}
  
 /**********TABLET LANDSCAPE*****/
 
@@ -111,6 +112,8 @@ textarea {
     width: 30%; 
     margin: 0 .75em;
    }
+   
+}
 
   
 /****************DESKTOP********************/
@@ -128,4 +131,6 @@ textarea {
      width: 20%;
      margin: 0 1em;
 
+}
+   
 }
